@@ -31,6 +31,8 @@ To be able to read the text properly with PaddleOCR, we apply filters and correc
 In order for the reading of the text to be as good as possible, the text must be black and not blur. We use an adaptive threshold to remove reflections from the image.
 After retrieving the data from the final image, the data will be saved in the database, a prototype of the ticket will be made in the console and the actual ticket will be created.
 
+You can see the full documentation on this [link](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FSamiIonesi%2FLicence_Plate_Detector%2Fmain%2FLicence_Plate_Detector_Documentation.docx&wdOrigin=BROWSELINK).
+
 #### There is a few details you have to pay attention on the main code that the project to work:
 1. You have to make sure that your connection to the Firebase is set correctly
    ```python
